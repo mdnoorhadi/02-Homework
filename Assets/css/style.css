@@ -11,9 +11,7 @@ h6 {
     margin-bottom: 20px;
 }
 
-h2,
-h3,
-h4 {
+h2 {
     color: #333333;
     text-transform: uppercase;
 }
@@ -146,7 +144,8 @@ PORTFOLIO
 }
 
 .pt-img {
-    padding-bottom: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 /*
@@ -186,11 +185,21 @@ footer a:hover {
 
 footer p {
     color: #dddddd;
-    font-size: 60%;
-    font-weight: 400;
+    font-size: 50%;
+    font-weight: 200;
     line-height: 2.0;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons img {
+    width: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 /*
