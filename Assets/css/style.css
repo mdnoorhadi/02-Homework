@@ -69,30 +69,30 @@ NAVBAR
 HEADER
 */
 
-#header {
+header {
     padding: 80px 0 80px 0;
     margin-bottom: 80px;
     border-bottom: 3px dotted #dedede;
 }
 
-#header .hd-photo {
+header .hd-photo {
     margin-bottom: 20px;
     text-align: center !important;/* Forced */
 }
 
-#header .img-border {
+header .img-border {
     border: 20px solid #eeeeee;
     box-shadow: 20px 20px #e71691;
     width: 80%;
 }
 
-#header h1 {
+header h1 {
     margin-top: 20px;
     font-size: 260%;
     line-height: 1.2;
 }
 
-#header .h1-desr {
+header .h1-desr {
     display: block;
     font-weight: 200;
     font-size: 180%;
@@ -208,16 +208,16 @@ MOBILE
 
 @media only screen and (max-width: 600px) {
 
-    #header h1 {
+    header h1 {
         text-align: center;
         font-size: 240%;
     }
 
-    #header .h1-desr {
+    header .h1-desr {
         text-align: center;
     }
     
-    #header .h1-desr a {
+    header .h1-desr a {
         display: block;
         margin-top: 20px;
     }
