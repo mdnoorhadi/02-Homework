@@ -1,22 +1,115 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
 
     <meta charset="utf-8">
 
+    <!-- WEBSITE TITLE -->
+    <title>Perth full stack developer</title>
+
+    <!-- BOOSTRAP CSS FILE -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="sheet.css" />
+    <!-- CSS STYLE FILE -->
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css" />
+
+    <!-- FAVICON FILE -->
+    <link rel="icon" href="./Assets/Images/favicon.jpg">
+
 
 </head>
 
 <body>
-    
-    
 
+    <!-- START NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark site-navbar">
+        <a class="navbar-brand navbar-logo" href="index.html">Hadi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto navbar-item-bold">
+                <!-- .ml-auto to align navbar links to the right -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--// END NAVIGATION -->
+
+    <!-- START CONTAINER -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+
+                <!-- Sub-page Header -->
+                <div class="sub-h2">
+                    <h2>Portfolio</h2>
+                </div>
+
+                <!-- Portfolio List-->
+                <div class="row portfolio-list">
+                    <div class="col">
+                        <img class="pt-img" src="https://via.placeholder.com/300" alt="Portfolio Item" />
+                    </div>
+                    <div class="col">
+                        <img class="pt-img" src="https://via.placeholder.com/300" alt="Portfolio Item" />
+                    </div>
+                    <div class="col">
+                        <img class="pt-img" src="https://via.placeholder.com/300" alt="Portfolio Item" />
+                    </div>
+                </div>
+
+                <!-- Portfolio List-->
+                <div class="row portfolio-list">
+                    <div class="col">
+                        <img class="pt-img" src="https://via.placeholder.com/300" alt="Portfolio Item" />
+                    </div>
+                    <div class="col">
+                        <img class="pt-img" src="https://via.placeholder.com/300" alt="Portfolio Item" />
+                    </div>
+                    <div class="col">
+                        <img class="pt-img" src="https://via.placeholder.com/300" alt="Portfolio Item" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!--// END CONTAINER-->
+
+    <!-- START FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>
+                        HTML and CSS handcrafted with &hearts; using <a href="https://code.visualstudio.com/"
+                            target="_blank">Visual Studio Code</a>.<br />
+                        &copy; 2020 Md Noor Hadi. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--// END FOOTER-->
+
+
+    <!-- JAVASCRIPT FILES -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

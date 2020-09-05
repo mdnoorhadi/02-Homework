@@ -133,6 +133,39 @@ CLIENT SECTION
 }
 
 /*
+PORTFOLIO
+*/
+
+.sub-h2 {
+    margin: 80px 0 40px 0;
+    border-bottom: 1px dashed #dedede;
+}
+
+.portfolio-list {
+    text-align: center;
+}
+
+.pt-img {
+    padding-bottom: 40px;
+}
+
+/*
+CONTACT
+*/
+
+.contact-form {
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+.contact-form label {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+/*
 FOOTER
 */
 
@@ -182,6 +215,10 @@ MOBILE
 
     .client-section img {
         width: 50%;
+    }
+
+    .contact-form {
+        width: 100%;
     }
 
   }
