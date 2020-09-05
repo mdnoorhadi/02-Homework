@@ -78,7 +78,8 @@ header {
 }
 
 .hd-photo {
-    text-align: center !important;
+    margin-bottom: 20px;
+    text-align: center !important;/* Forced */
 }
 
 .img-border {
@@ -162,3 +163,19 @@ footer p {
 /*
 MOBILE
 */
+
+@media only screen and (max-width: 600px) {
+    header h1 {
+        text-align: center;
+        font-size: 240%;
+    }
+
+    header .h1-desr {
+        text-align: center;
+    }
+    
+    header .h1-desr a {
+        display: block;
+        margin-top: 20px;
+    }
+  }
