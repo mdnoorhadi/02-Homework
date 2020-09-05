@@ -165,16 +165,16 @@ MOBILE
 */
 
 @media only screen and (max-width: 600px) {
-    header h1 {
+    #header h1 {
         text-align: center;
         font-size: 240%;
     }
 
-    header .h1-desr {
+    #header .h1-desr {
         text-align: center;
     }
     
-    header .h1-desr a {
+    #header .h1-desr a {
         display: block;
         margin-top: 20px;
     }
